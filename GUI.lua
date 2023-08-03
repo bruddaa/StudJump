@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local Tab = Window:CreateTab("Main") 
-local Section = Tab:CreateSection("Main Positions")
+local Section = Tab:CreateSection("Teleports")
 local Button = Tab:CreateButton({
    Name = "VIP Room",
    Callback = function()
@@ -36,7 +36,7 @@ local Button = Tab:CreateButton({
    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-91, -215, -20)
    end,
 })
-local Section = Tab:CreateSection("Obby ends")
+local Section = Tab:CreateSection("Obby end Tp")
 local Button = Tab:CreateButton({
    Name = "Easy",
    Callback = function()
